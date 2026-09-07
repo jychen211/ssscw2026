@@ -551,7 +551,8 @@ const PLACES = [
     type: 'optional',
     order: 105,
     addMin: 30,
-    coord: [121.46527, 31.24166],
+    // 官网 WGS-84 [121.4652706, 31.24168] 转为 GCJ-02；光复路127号，四行仓库旁。
+    coord: [121.469821, 31.239765],
     name: { zh: 'Fotografiska 上海影像艺术中心', en: 'Fotografiska Shanghai', de: 'Fotografiska Shanghai' },
     addr: {
       zh: '上海市静安区光复路127号',
